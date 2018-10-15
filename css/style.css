@@ -1,7 +1,10 @@
+/* Layout Styles*/
 body {
-  background-color: #ff0000;
-  color: #0000FF;
-}
+  background-color: #ffff;
+  color: #000;
+  font-size: 19px;
+  font-family: 'Raleway', sans-serif;
+  }
 
 nav {
   background-color: rgba(0,0,0,.5);
@@ -9,27 +12,9 @@ nav {
   position: fixed;
   width: 100%;
 }
-
-.logo {
-  margin: 20px;
-  width: 100px;
-}
-
-.large-pic {
-  width: 100%;
-}
-
-.medium-pic {
-  width: 70%;
-}
-
-.left, .right {
-  float: left;
-  width: 50%;
-}
-
-.right {
-  float: right;
+article {
+  padding-top: 100px;
+  line-height:1em;
 }
 
 ul {
@@ -42,11 +27,85 @@ li {
   padding: 30px;
 }
 
-article {
-  padding-top: 100px;
+/* headlines*/
+h1{
+  font-size: 2.0em;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-top: .5em;
 }
+
+h3{
+font-size: 1.2em;
+font-family: 'Roboto', sans-serif;
+line-height:1.2em;
+font-weight: 300;
+padding-top: .8em;
+color: #A9A9A9;
+}
+p{
+font-size: 100%;
+line-height: 1.4em;
+}
+figcaption{
+  font-size: 12px;
+  line-height: 2em ;
+  padding-top: .5em;
+}
+/* element styling css*/
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 90%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+a {
+   text-decoration: none;
+  }
+a:link {
+   color:#ffff;
+  }
+a:visited
+{ color:#0070BA;
+}
+a:hover {
+   color:#0070BC;
+ }
+a:active {
+  color:#0070BD;
+}
+
 
 .container {
   margin: 0 auto;
   width: 50%;
+}
+.author {
+  font-size: .7em;
+  line-height: 2em;
+  text-transform: uppercase;
+  padding-top: 1.2em;
+}
+.author-name{
+  font-weight: 600;
+}
+.story-text {
+  font-size: 1em;
+  line-height: 1.2em;
+  padding-top: .8em;
 }
